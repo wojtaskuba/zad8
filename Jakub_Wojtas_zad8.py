@@ -1,0 +1,5 @@
+f = open('plik.txt', 'w+')
+f.write('Lorem Ipsum\nIpsum Lorem')
+f = open('plik.txt', 'r')
+print(f.read())
+f.close()
